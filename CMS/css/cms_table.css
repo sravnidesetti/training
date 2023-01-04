@@ -1,0 +1,78 @@
+body{
+    width:1200px;
+    margin: auto;    
+    background-image: linear-gradient(320deg, black, transparent);
+}
+   
+
+.container{
+    width:100%;
+    min-height: 800px;
+}
+.head{
+    width:100%;
+    padding: 15px 0px;
+    background-color:#ffe6e6;
+    margin: auto;
+}
+
+.class-nav{
+    width:20%;
+    min-height:930px;
+    float: left;
+    background-color:black;
+}
+.right{
+    width:80%;
+    float: right;
+}
+a {
+    text-transform: uppercase;
+    display: block;
+    padding: 40px 10px;
+    color: white;
+}
+.btn-letstalk{
+    margin: 40px 10px;
+    height: 25px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+#description{
+    width:400px;
+}
+th,td{
+    padding: 15px;
+    text-align: center;
+    color:white;
+}
+th{
+        background-color:#ffe6e6;
+        color: black;
+}
+#btn_add{
+    width:200px;
+    height:30px;
+    border-radius: 20px;
+    float: right;
+    position: relative;
+    top: 18px;
+    color: black;
+}
+#logo{
+   padding:0% 37%;
+}
+table{
+    width:100%;
+}
+#add{
+    color: black;
+    position: relative;
+    top: -35px;
+    text-decoration: none;
+    font-size:large;
+}

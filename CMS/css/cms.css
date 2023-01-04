@@ -1,0 +1,122 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    background: #FFF7F4;
+}
+header{
+    width:80%;
+    overflow: hidden;
+    padding:5px 120px 5px 120px;
+
+}
+.div-logo{
+    width:35%;
+    float: left;
+    padding-top: 5px;
+}
+nav{
+    width: 65%;
+    float: right;
+    padding: 15px 0px;
+}
+a{
+    padding: 10px 15px;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #373737;
+}
+.btn-letstalk{
+    height: 30px;
+}
+a:first-child{
+    color: #FF5300;;
+}
+.main{
+    width:80%;
+    background-color: #E5E5E5;;
+    overflow: hidden;
+    margin: auto;
+}
+#service-div{
+    width: 280px;
+    height: fit-content;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+#serviceimg-div{
+    width:50%;
+    float: left;
+}
+#si-div{
+    width: 50%;
+    float: right;
+}
+#si-div>h1{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-family:Poppins;
+    font-Weight:600;
+    font-size:64px;
+    color: #EFEFEF;
+    text-align: center;
+}
+#service-div>h4{
+    text-align: start;
+    width: 100%;
+    font-family:Poppins;
+    font-weight: 600;
+    font-size:25px ;
+    color: #373737;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#total_images{
+    width: 100%;
+    overflow: hidden;
+}
+#service-div>h7{
+
+    font-family:Poppins;
+    font-weight: 300;
+    font-size:12.8px ;
+    color: #7B7B7B;
+  
+}
+#service-div>h6{
+
+    font-family:Poppins;
+    font-weight: 400;
+    font-size:16px ;
+    color: #7B7B7B; 
+}
+#service{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5300;
+    text-align: center;
+    margin-bottom: 0px;
+ 
+    }
+.main h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 59px;
+    color: #373737;
+    text-align: center;
+    margin-top: 0px;
+ 
+ }
