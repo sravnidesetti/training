@@ -1,0 +1,118 @@
+body{
+background-image:url('../images/purple.jpeg');
+opacity:90%;
+background-repeat:no-repeat;
+background-size:cover;
+width:1200px;
+margin:auto;
+cursor:pointer;
+}
+.container
+{
+ background-color:#e6e6e6;
+ height:47%;
+width:40%;
+margin-left:30%;
+margin-top:15%;
+text-align:center;
+border-radius:20px;
+display:block;
+}
+input
+{
+height:8%;
+width:60%;
+border:none;
+border-radius:5px;
+margin-bottom:3%;
+}
+h1{
+padding:10%  0% 2% 0%;
+font-size:25px;
+margin-bottom:7%;
+font-family: Tahoma, sans-serif;
+}
+.button{
+background-image: url('../images/purple.jpeg');
+height:8%;
+width:60%;
+color:white;
+margin-top:5%;
+border-radius:5px;
+}
+button:hover{
+opacity:0.5;
+}
+.box{
+height:3%;
+width:3%;
+}
+h5
+{
+margin-top:5%;
+}
+  .title
+  {
+	  width:100%; 
+	  height:10%;
+	  text-align:center;
+	  color:white;
+	  font-size:40px;
+	  font-family:Courier New;
+  }
+.footer{
+    width: 100%;
+    height: 14%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.main{
+	width:100%;
+	height:64%;
+}
+.mainright{
+	width:30%;
+	height:100%;
+	float:right;
+}
+.mainleft{
+	width:65%;
+	height:100%;
+	float:left;
+	padding-left:1%;
+	padding-right:1%;
+	overflow-y:scroll;
+}
+h3{
+	color:#FFA500;
+	text-align:center;
+}
+p{
+	color:white;
+	padding-left:5%;
+	padding-right:5%;
+}
+.mainright p{
+	color:white;
+}
+.body1{
+	
+  background-image:url('/home/feuji/Downloads/purple.jpeg');
+  opacity:90%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:1200px;
+  margin:auto;
+  cursor:pointer;
+  display:none;
+}
+	#img
+	{
+	
+        height: 55px;
+        width: 150px;
+        padding-top: 2%;
+        padding-left: 3%;
+	}
+	
