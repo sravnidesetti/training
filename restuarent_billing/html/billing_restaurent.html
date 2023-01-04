@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/billing_restaurent.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                <h3 id="orderspage">orders<label id="totalOrders">0</label></h3>
+                <h3 id="curerntpage">current</h3>
+            </nav>
+            </header>
+            <div class="main">
+                <div class="left">
+                <ul id="ulList">                  
+                </ul>
+                </div>
+                <div class="right">
+                    <div class="billhead">
+                       <h3>Table5</h3>
+                       <h3>|Max</h3>
+                       <h2 id="clear">clear</h2>
+                    </div>
+                    <input type="text" id="customer" placeholder="Enter your Name">
+                    <table id="table">
+                        <thead>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>QUANTITY</th>
+                            <th>PRICE</th>
+                        </tr>
+                        </thead>
+                        <tbody class="tbody"></tbody>
+                    </table>
+                    <table>
+                        <thead>
+                         <tr>
+                            <th>TAX</th>
+                            <th >4%</th>
+                            <th id="tax">0</th>
+                         </tr>
+                         <tr>
+                            <th>TOTAL</th>
+                            <th id="total">0</th>
+                         </tr>
+                        </thead>
+                    </table>
+                    <footer>
+                        <button id="check">CHECK</button>
+                        <button id="pay">PAY</button>
+                    </footer>
+                </div>
+            </div>
+            <div class="main1">
+                <div id="left1">
+                    <table id="table1">
+                        <thead>
+                            <tr>
+                                <th>CUSTOMER-NAME</th>
+                                <th>TOTAL</th>
+                                <th>TAX</th>
+                                <th>PAID-AMOUNT</th>
+                                <th>ITEM-DETAILS</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody1"></tbody>
+                    </table>              
+                </div>
+                <div id="right1">
+                    <table id="summeryTable">                           
+                    </table>                
+                </div>
+            </div>
+        </div>
+       <script src="../js/restuarent_billing.js"></script>
+    </body>
+</html>
