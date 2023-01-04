@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<script>
+var blnc=0;
+var i, type,amount,t="";
+var transactions=[];
+var account=["123456","567890"];
+var password=["8989","6745"];
+var balance =[19000,20000];
+var choice =[1,2,3,4,5];
+
+check();
+function check()
+{
+ useraccount=prompt("enter your account number:");
+  if(account.includes(useraccount))
+  {
+   i=account.indexOf(useraccount);
+  userpassword=prompt("enter your password :");
+  if( password.includes(userpassword))
+  {
+  if( account.indexOf(useraccount)==password.indexOf(userpassword))
+  {
+    check_options();
+  }
+  else
+  {
+   alert("login credentials doesn't match");
+    check();
+  }
+  }
+  else
+  {
+  alert("Incorrect password");
+  check();
+  }
+  }
+  else
+  {
+  alert("Incorrect account number");
+   check();
+  }
+  }
+	function check_options(){
+    while(true){
+  alert("welcome to your account");	    	
+  alert("enter 1 for Balance enquiry\nenter 2 for cash deposit\nenter 3 for money withdraw\nenter 4 for logout\nenter 5 for Exit");	 
+  var option =parseInt(prompt("enter a number for request"));  
+ {
+  switch(option){
+  case choice[0]:checkBalance();break;
+  case choice[1]:deposit();break;
+  case choice[2]:withdraw();break;
+  case choice[3]:logout();break;
+  case choice[4]:exit();break;
+                   }
+			}
+}
+}
+function checkBalance(){ 
+    alert("balance :"+balance[i]);
+	for(var j=1;j<transactions.length;j++)
+	{
+	t +=(`${transactions[j].type}-${transactions[j].amount}`)
+	 }
+	 alert(" previous transactionst are:"+t);
+}
+function deposit(){
+    depositfunds=parseInt(prompt("Enter the amount you want to deposit"));
+	balance[i]=depositfunds+balance[i];
+    alert("deposit completed\n available balance is " + balance[i] );
+    transactions.push({type:"deposit",amount:+depositfunds});	
+		   }
+function withdraw(){
+   withdrawfunds=parseInt(prompt("Enter the amount you want to withdraw"));
+    if(withdrawfunds<=balance[i] )
+    {
+	  balance[i]=balance[i]-withdrawfunds;
+    alert("withdraw completed\n available balance is " +balance[i] ); 	
+     transactions.push({type:"withdraw",amount:+withdrawfunds});	
+    }
+    else
+    {
+    alert("Insufficient funds");
+    alert("avalible balance:"+  balance[i]  );
+    } 
+    
+                   }		   
+function  logout(){
+                   alert("you are logging out of your account");
+	    	    check();
+	    	  }
+ function exit(){
+                  alert("Thank you for using the service");
+		  alert("good bye");
+		  system.exit(0);
+                }			
+			 
+  
+</script>
+</body>
+</html>

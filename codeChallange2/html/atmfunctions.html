@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var balance;
+var account1=123456;
+var account2=567890;
+var password1=8989;
+var password2=6745;
+
+ac_check();
+function ac_check()
+{
+    m=prompt("enter your account number :");
+    if(m==account1||m==account2)
+    {
+      n=prompt("enter your password :");
+      if(m==account1 && n==password1||m==account2&& n==password2)
+      {
+      options();
+      }
+      else
+      {
+      ac_check();
+      }
+    }
+    else
+    {
+    alert("incorrect details");
+    }
+}
+function options()
+{
+while(true)
+{	
+    alert("welcome to your account");	    	
+    alert("enter 1 for Balance enquiry\nenter 2 for cash deposit\nenter 3 for money withdraw\nenter 4 for logout\nenter 5 for Exit");	 
+     var choice=prompt("enter a number for request");  
+    switch(choice)
+    {	
+    case "1":checkBalance(); break;  
+    case "2":deposit();break;     
+    case "3":withdraw();break;      
+    case "4":signout();break;
+    case "5":exit();break;
+    default :alert("no such request is avalible");
+    }
+}
+}
+function checkBalance(){ 
+    if(m==account1)
+    {
+    balance=5000;
+    }
+    else if(m==account2)
+    {
+    balance=20000;
+    }
+    alert("balance :"+balance);
+                 }
+function deposit(){
+    deposit=parseInt(prompt("Enter the amount you want to deposit"));
+    balance=balance+deposit;
+    alert("deposit completed\n available balance is " +balance);		                                              
+		   }
+function withdraw(){
+    funds=parseInt(prompt("Enter the amount you want to withdraw"));
+    if(funds<=balance)
+    {
+    balance =balance-funds;
+    alert("withdraw completed\n available balance is " +balance);                                   
+    }
+    else
+    {
+    alert("Insufficient funds");
+    alert("avalible balance:"+balance);
+    } 
+    
+                   }		   
+function  logout(){
+                   alert("you are logging out of your account");
+	    	    ac();
+	    	  }
+ function exit(){
+                  alert("Thank you for using the service");
+		  alert("good bye");
+		  system.exit(0);
+                }
+		
+		
+</script>
+</body>
+</html>

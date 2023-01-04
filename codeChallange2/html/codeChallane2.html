@@ -1,0 +1,87 @@
+<html>
+<head>
+<link rel="stylesheet"  href="../css/codeChallange2.css">
+</head>
+<body class="total">
+<button class="log" onclick="details()">LOGIN</button>
+<button class="register" onclick="">REGISTER</button>
+<form>
+   <div  class="container">
+       <p class="h1">LOGIN NOW</p><b>
+	   <div class="alert" id="lalert">
+    <p id="lmessage"></p>
+      </div>
+       <input type="text"  placeholder="username"   id="uname" ><br><br>
+       <input type="text" placeholder="password"     id="upassword" ><br><br></b>
+       <input type="checkbox" class="box">Remember me &nbsp  &nbsp &nbsp &nbsp  &nbsp  &nbsp  &nbsp &nbsp  Forget password
+       <input type="button" value="submit" class="btn" ><br>
+<br>
+       <p class="h5">IF YOU DON'T HAVE AN ACCOUNT?<a href >Resgister</a></p>
+  </div>
+</form>
+<div class="body1">  <div class="header">
+     <h1>ATM</h1><br><br><br>
+     <p class="logout" onclick="reset()">LOGOUT<img src="../images/logout.png " id="img"></p>
+  </div>
+  <div class="info">
+     <h4>WELCOME</h4><br>
+     <h2 id="acccountholder"></h2><br>
+     <h4>Account#1</h4><br>
+     <h2>Savings</h2><br>
+     <h4>AccountBalance</h4><br>
+     <h2 id="balance"></h2><br>
+  </div>
+  <div class="choice">
+     <button   class="button1" id="d" onclick="deposits()"><b>Deposit</b></button>
+     <button class="button1" id="c" onclick="withdraws()"><b>Withdraw</b></button>
+     <button  class="button1" id="cancel" ><b>Cancel</b></button>
+     <button  class="button1" id="t" onclick="transaction()"><b>transactions</b></button>
+<br>
+  </div>
+</div>
+<div  class="withdraw_model">
+    <h3>Withdraw funds<h3><br>
+    <button class="cancel" id="cancel1">Close</button>
+	<div class="alert" id="walert">
+          <p id="wmessage"></p>
+    </div>
+    <input type="numeric" placeholder="enter the amount" class="winput"><br><br>
+    <button class="button2" id="wbtn">withdraw</button>
+</div>
+<div class="deposit_model">
+    <h3>Deposit funds<h3><br>
+    <button class="cancel" id="cancel2">Close</button>
+	<div class="alert" id="dalert">
+          <p id="dmessage"></p>
+   </div>
+    <input type="numeric" placeholder="enter the amount" class="dinput"><br><br>
+    <button  class="button2" id="dbtn">deposit</button>
+</div>
+
+<div class="transaction_model">
+    <h3>Previous Transactions
+	<button class="button3"  id="twithdraw" onclick="transaction('Wt')">Withdraw</button>
+	<button class="button3"  id="tdeposit" onclick="transaction('Dt')">Deposit</button>
+	<button class="button3" id="cancel3">Close</button>
+	</h3>
+    <table >
+      <thead>
+        <tr>
+         <th>S.no</th>
+         <th>Type</th>
+         <th>Amount</th>
+         <th>Balance</th>
+         <th>Time</th>
+        </tr>
+      </thead>
+    <tbody id="tablebody">
+    </tbody>
+	</table>
+ <div>
+
+</div>
+</div>
+
+<script src="../js/codeChallange2.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var blnc=0;
+var account=[123456,567890];
+var password=[8989,6745];
+var balance =[19000,20000];
+var choice =[1,2,3,4,5];
+check();
+function check()
+{
+ m=prompt("enter your account number:");
+  if( m==account[0]||m==account[1])
+  {
+  n=prompt("enter your password :");
+   if( m==account[0]&&n==password[0]||m==account[1]&&n==password[1])
+   {
+    check_options();
+	}
+	}
+	else{
+	alert("Incorrect details");
+	check();
+	}   
+    }	 
+function check_options(){
+    while(true){
+  alert("welcome to your account");	    	
+  alert("enter 1 for Balance enquiry\nenter 2 for cash deposit\nenter 3 for money withdraw\nenter 4 for logout\nenter 5 for Exit");	 
+  var option =parseInt(prompt("enter a number for request"));  
+ {
+  switch(option){
+  case choice[0]:checkBalance();break;
+  case choice[1]:deposit();break;
+  case choice[2]:withdraw();break;
+  case choice[3]:logout();break;
+  case choice[4]:exit();break;
+                   }
+			}
+}
+}
+function checkBalance(){ 
+    if(m==account[0])
+    {
+    blnc=balance[0];
+    alert("balance :"    +blnc);
+    }
+    else if(m==account[1])
+    {
+    blnc=balance[1];
+    alert("balance :"    +blnc);
+    }
+
+                 }
+function deposit(){
+    deposit=parseInt(prompt("Enter the amount you want to deposit"));
+    blnc=    blnc+deposit;
+    alert("deposit completed\n available balance is " +    blnc);		                                              
+		   }
+function withdraw(){
+    funds=parseInt(prompt("Enter the amount you want to withdraw"));
+    if(funds<= blnc)
+    {
+      blnc =    blnc-funds;
+    alert("withdraw completed\n available balance is " +    blnc);                                   
+    }
+    else
+    {
+    alert("Insufficient funds");
+    alert("avalible balance:"+    blnc);
+    } 
+    
+                   }		   
+function  logout(){
+                   alert("you are logging out of your account");
+	    	    check();
+	    	  }
+ function exit(){
+                  alert("Thank you for using the service");
+		  alert("good bye");
+		  system.exit(0);
+                }			
+		
+</script>
+</body>
+</html>
