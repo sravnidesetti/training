@@ -1,0 +1,352 @@
+
+body{
+		    background-image: linear-gradient(to right ,  #f38e82, #fbdb89,#f48982);
+		    width:1200px;
+		    cursor:pointer;
+		    margin:auto;
+            font-family:sans-serif;
+}
+span{
+	        text-transform:uppercase;
+			
+}
+.container{
+		   width:1000px;
+		   margin:auto;
+		   box-sizing: border-box;
+		   background-color:white;
+		   position:relative;
+		   top:50px;
+		   border-top-left-radius: 10px;
+		   border-top-right-radius: 10px;
+		   color: #737373;
+		   overflow: hidden;
+}
+.header{
+			width:100%;
+			padding: 2% 2% 2% 5%;
+			box-sizing: border-box;
+			background-color: #fff0e6;
+		    border-radius:10px;
+			overflow: hidden;
+}
+.logo{
+			width:15%;
+			float:left;
+}
+#logoimg{
+			height:40px;
+			position: relative;
+            top: 6px;
+			
+}
+.searchbar{
+			width:45%;
+			float:left;
+}
+input
+{
+			height:45px;
+			width: 400px;
+			border-radius:20px;
+			border:none;
+			float:right;
+            font-size:inherit;
+}
+#searchbutton{
+			width: 120px;
+			height:45px;
+			border-radius: 20px;
+			border: none;
+		    background-image: linear-gradient(to right bottom, #fbdb89,#f48982);
+			float: right;
+			margin-top: -10.7%;
+			font-size:inherit;
+		   color:white;
+		   font-weight:bolder;
+}
+#search{
+           position: relative;
+           top: -9px;
+}
+.edit_logo{
+		   width: 20%;
+		   float: left;
+		   text-align:right;
+		   padding-top: 10px;
+		   font-size:small;
+}
+.bookmark_logo{
+		   width:20%;
+		   float:right;
+		   text-align:center;
+		   padding-top:16px;
+		   font-size:small;
+}
+#headerlogo_edit{
+			 height: 21px;
+             position: relative;
+             top: 5px;
+}
+#headerlogo_bookmark{
+			height: 15px;
+			position: relative;
+			top: 3px;
+}
+.main{
+			width:100%;
+			overflow: hidden;
+}
+.main_left{
+			float:left;
+			width:35%;
+			position: relative;
+            top: 20px;
+}
+.main_right{
+			float:right;
+			width:65%;
+		    background-color:  #fff0e6;
+			overflow: hidden;
+}
+.main_left li{
+            list-style:none;
+}
+.main_left ul{
+            padding:0px;
+}
+.item{
+			padding: 25px;
+}
+.item:hover{
+	        background-color: #fff0e6;
+}
+.item_logo{
+			height:40px;
+			border-radius:50%;
+			float:left;
+			height: 45px;
+			width: 45px;
+}
+span.head1
+{
+			color:red;
+			font-size:15px;
+			position: relative;
+			left: 7px;
+			overflow: hidden;
+			display: block;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+}
+span.head2
+{
+			font-size: x-small;
+			position: relative;
+			left: 7px;
+			top: -10px;
+			overflow: hidden;
+			display: block;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+}
+.navigation{
+			height:30px;
+			width:100px;
+			color:red;
+			font-size:15px;
+			border-radius:10px;
+			border:none;
+            color:red;
+}
+#btn-previous{
+			float: left;
+}
+#btn-previous>label{
+	        position:relative;
+			top:-5px;
+}
+#btn-next>label{
+	        position:relative;
+			top:-5px;
+}	
+#btn-next{
+			float:right;
+}
+.navigationicon{
+	        height:20px;
+			color:red;
+}
+#copyright{
+            padding: 25px 15px 5px 15px;
+			font-size:x-small;
+}
+.main_right_head{
+	        width:100%;
+			overflow:hidden;
+			max-height: 400px;
+}
+#display_img{
+	        width:100%;
+			opacity: 0.7;
+}
+.textlogo{
+			margin-top: -12%;
+			transform: skewY(-5deg);
+			font-weight: bold;
+}
+#textlogo1{
+			background-image: linear-gradient(to right,  #f38e82, #fbdb89,#f48982);
+			color:white;
+			text-transform:uppercase;
+			font-size:25px;
+			margin:auto;
+			width:300px;
+            text-align:center;
+			padding: 10px;
+}  
+#textlogo2{
+			background-image: linear-gradient(to right,  #f38e82, #fbdb89,#f48982);
+			color:white;
+			text-transform:uppercase;
+			font-size:25px;
+			margin:auto;
+			width:200px;
+			text-align:center;
+			padding: 10px;
+}
+.info{
+            width:100%;
+			clear:both;
+		    padding: 30px 0px 20px 0px;
+			font-size: small;
+			overflow: hidden;
+}
+.insideicon{
+			height: 30px;
+}	
+#clock_icon{
+			height: 17px;
+            position: relative;
+            top: 3px;
+}
+#person_icon{
+			height: 20px;
+			position: relative;
+			top: 2px;
+}
+#time{
+			width:35%;
+			text-align:center;
+			float:left;
+	}
+#serving{
+	        width:35%;
+            text-align:center;
+		    float:left;
+}	  
+#plus{
+	        height: 15px;
+			
+		}
+#minus{
+	        height: 13px;
+			position:relative;
+			top:-1px;
+	}
+#serving>span{
+	        position:relative;
+			top:-2px;
+	
+}
+.divbookmark{
+			margin:auto;
+			width:30%;
+		    float:right;
+			text-align:center;
+}
+.ingredients{
+			width:100%;
+			background-color: #f2f2f2;
+			padding: 30px 0px 30px 0px;
+}
+.ingredients ul  li{
+	       	font-size:small;
+			justify-content: center;
+			line-height: 35px;
+}
+.ingredients  ul{
+			columns: 100px 2;
+			list-style:none;
+			padding: 0px 70px 0px 70px;
+}
+.ingredients  ul li::marker {
+		  color: red;
+		  content: "✓";
+}
+.right_titles{
+			color:red;
+			text-align:center;
+			text-transform:uppercase;
+}
+
+#direction_button{
+			width: 120px;
+			height: 35px;
+			border-radius: 15px;
+			border: none;
+			background-image: linear-gradient(to right bottom, #fbdb89,#f48982);
+			position:relative;
+			left:40%;
+		    color:white;
+			margin-top:10px;
+			font-weight:bolder;
+}
+#direction_button>svg{
+	        fill:white;
+	        height:20px;
+}
+#direction_button>span{
+	        position:relative;
+			top:-4px;
+}
+	
+#recipe{
+			text-align:center;
+			padding:0 10px 0 10px;
+            font-size: small;
+}
+.footer{
+	     	width:100%;
+			margin:auto;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			overflow: hidden;
+}
+.main_left_footer{
+			width:35%;
+			float:left;
+			padding-top:10%;
+			border-bottom-left-radius: 10px;
+}
+.main_right_footer{
+            width:65%;
+	        float:right;
+		    background-color: #fff0e6;
+		    border-bottom-right-radius: 10px;
+			padding: 30px 0px 30px 0px;
+}
+
+.header_span,#time_change,#person_change,#recipe_change{
+            font-weight:bolder;
+			color: black;
+}
+#recipe_change{
+	font-weight:bolder;
+	color: black;
+	text-decoration: none;
+}
+.buttons{
+	width: 100%;
+	overflow:hidden;
+}
