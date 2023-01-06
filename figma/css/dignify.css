@@ -1,0 +1,74 @@
+.nav>li>a{
+    color:rgb(17, 16, 16);
+    padding-right: 22px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.home,.services,.percentage{
+    color: #FF5300  !important;
+}
+.header-nav{
+    margin-left: 1rem;
+}
+.button-talk{
+    border-radius: 5px;
+    border:solid black 1px; 
+    padding:5px;
+    background-color:#FFFFFF;
+    width: 100px;
+    height: 40px;
+}
+body{
+    background: #FFF7F4;
+}
+.home-content{
+    padding: 3rem;
+}
+.home-title{
+    font-family:Poppins;
+    margin-top: 5rem;
+    font-size: 44px;
+    line-height: 73px;
+}
+.home-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+.home-start{
+    background: #FF5300;
+    border-radius: 5px;
+    width: fit-content;
+    border: none;
+    margin-left: 1rem;
+    padding:1rem
+
+}
+.SI{
+    font-weight: 600;
+    font-size: 64px;
+    color: #EFEFEF;
+}
+h7{
+    font-size: small;
+}
+.service-summery{
+      padding-right: 2rem;
+      color: #7B7B7B;
+      font-weight: 400;
+}
+.service-title{
+    font-size: small;
+    color: #7B7B7B;
+}
+.case-study{
+    background: #FF5300;
+    border-radius: 5px;
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+}
