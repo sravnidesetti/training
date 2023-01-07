@@ -1,0 +1,76 @@
+{
+    "services": [
+      {
+        "Title": "UX Design",
+        "Tag": "Mobile App, Website",
+        "Img_url": "../images/ux-interface.png",
+        "Description": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "Status": "active",
+        "id": 1
+      },
+      {
+        "Title": "Game Design",
+        "Tag": "Mobile App, Website",
+        "Img_url": "../images/gaming.png",
+        "Description": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "Status": "active",
+        "id": 2
+      },
+      {
+        "Title": "Graphic Design",
+        "Tag": "Mobile App, Website",
+        "Img_url": "../images/design.png",
+        "Description": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "id": 3,
+        "Status": "active"
+      },
+      {
+        "Title": "Web Design",
+        "Tag": "Mobile App, Website",
+        "Img_url": "../images/web-design.png",
+        "Description": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "id": 4,
+        "Status": "active"
+      },
+      {
+        "Title": "App Development",
+        "Tag": "Mobile App, Website",
+        "Img_url": "../images/mobile-development.png",
+        "Description": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "id": 5,
+        "Status": "active"
+      },
+      {
+        "Title": "Digital Marketing",
+        "Tag": "Mobile App, Website",
+        "Img_url": "../images/digital-marketing.png",
+        "Description": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "id": 6,
+        "Status": "active"
+      },
+      {
+        "Title": "sravani",
+        "Tag": "mobiles",
+        "Img_url": "/home/feuji/feuji/applications/codeChallange2/images/logout.png",
+        "Description": "for gaming",
+        "Status": "inactive",
+        "id": 7
+      },
+      {
+        "Title": "heyyy",
+        "Tag": "sravaniii",
+        "Img_url": "../images/mobile-development.png",
+        "Description": "helloooo",
+        "Status": "inactive",
+        "id": 8
+      },
+      {
+        "Title": "sravani",
+        "Tag": "desetti",
+        "Img_url": "../images/Digiency(Dark) 2.png",
+        "Description": "project",
+        "Status": "inactive",
+        "id": 9
+      }
+    ]
+  }
